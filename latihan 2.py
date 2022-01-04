@@ -1,12 +1,19 @@
-max = 0
-try:
-    while True:
-        a=int(input("Masukkan Bilangan: "))
-        if max < a:
-            max = a
-        if a == 0:
-            break
-        print("\nBilangan Terbesar Adalah :", max)
+print(' ')
+print('-----Program Menampilkan bilangan terbesar-----')
+print(' ')
 
-except:
-    print ("Masukkan Tipe Data Integer!")
+
+max = 0
+
+
+while True:
+    a = int(input('Masukkan bilangan:'))
+    if a >= max:
+        max = a
+    if a == 0:
+        break
+
+
+print('Nilai terbesarnya adalah :',max)
+print(' ')
+print('--------------------SELESAI--------------------')
