@@ -24,7 +24,6 @@ Dan seperti inilah contoh dari program looping pada python.
 **FLOWCHART LATIHAN1.PY**
 **FLOWCHART LATIHAN 1**
 
-![Image are easy][b31fc1e19002f13208fc5653709b9d8a](https://user-images.githubusercontent.com/93851727/140685090-d8ce60e6-8273-4aba-bfb5-2c6c6b7f62b7.jpg)
 ![Image are easy](https://user-images.githubusercontent.com/46926758/53193448-8e52a380-3643-11e9-9f3e-82b74718a6aa.png)
 
 
