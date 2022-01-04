@@ -1,14 +1,20 @@
+print('-----Bilangan acak yang lebih kecil dari 0.5-----')
+print(' ')
 import random
-try:
-    n = int ( input ("Masukkan Jumlah n:"))
-    a = 0
-    for c in range (n):
-        a+= 1
-        b = random.uniform(.0,.5)
-        print('Data Ke:',a,"==>", b)
-        while a <= 5:
-            c = random.random()
-            break
-except:
-    print ("")
-    print ("Masukkan Tipe Data Integer!")
+N = int(input('Masukan nilai N : '))
+a = 0
+for i in range(N):
+    a +=1
+    b = random.uniform(.0,.5)
+    print('Data ke :',a,'--->',b)
+print('Selesai')
+print (' ')
+jawab = 'lanjutkan'
+hitung = 0
+while jawab == 'lanjutkan':
+      hitung += 1
+      jawab = input('ingin mengulanginya ? (lanjutkan/tidak)')
+      if jawab == 'tidak':
+        break
+print(f'Total Perulangan : '+ str (hitung))
+print('-----Selesai-----')
